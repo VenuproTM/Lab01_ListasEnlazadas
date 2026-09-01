@@ -27,6 +27,19 @@ class Program // Variables globales y menú principal
         return codigo;
     }
 
+        static string GenerarCorreo(string nombres)
+    {
+        string[] partes = nombres.Trim().Split(' ');
+        string primerNombre = partes[0].ToLower();
+        string iniciales = ""; 
+
+        for (int i = 1; i < partes.Length; i++)
+        {
+            iniciales += partes[i][0];
+        }
+        return primerNombre + iniciales.ToLower() + "@upn.edu.pe";
+    }
+
     static void Main()
     {
         int opcion;
@@ -56,6 +69,8 @@ class Program // Variables globales y menú principal
         Console.Write("Ingrese nombres y apellidos: ");
         nuevo.Nombres = Console.ReadLine();
 
+        nuevo.Correo = GenerarCorreo(nuevo.Nombres);
+
         Console.Write("Ingrese edad: ");
         nuevo.Edad = int.Parse(Console.ReadLine());
 
@@ -74,6 +89,8 @@ class Program // Variables globales y menú principal
 
         totalAlumnos++;
 
-        Console.WriteLine($"\nAlumno registrado. Código: {nuevo.Codigo}");
+        Console.WriteLine($"\nAlumno registrado con éxito.");
+        Console.WriteLine($"Código : {nuevo.Codigo}");
+        Console.WriteLine($"Correo : {nuevo.Correo}");
     }
 }
