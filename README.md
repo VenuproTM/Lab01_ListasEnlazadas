@@ -1,1 +1,1 @@
-# Lab01_ListasEnlazadas
+# Lab02_ListasEnlazadas
