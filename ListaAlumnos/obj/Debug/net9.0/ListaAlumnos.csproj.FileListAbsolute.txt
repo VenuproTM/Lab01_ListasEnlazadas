@@ -1,0 +1,15 @@
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\ListaAlumnos\bin\Debug\net9.0\ListaAlumnos.exe
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\ListaAlumnos\bin\Debug\net9.0\ListaAlumnos.deps.json
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\ListaAlumnos\bin\Debug\net9.0\ListaAlumnos.runtimeconfig.json
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\ListaAlumnos\bin\Debug\net9.0\ListaAlumnos.dll
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\ListaAlumnos\bin\Debug\net9.0\ListaAlumnos.pdb
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\ListaAlumnos\obj\Debug\net9.0\ListaAlumnos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\ListaAlumnos\obj\Debug\net9.0\ListaAlumnos.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\ListaAlumnos\obj\Debug\net9.0\ListaAlumnos.AssemblyInfo.cs
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\ListaAlumnos\obj\Debug\net9.0\ListaAlumnos.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\ListaAlumnos\obj\Debug\net9.0\ListaAlumnos.sourcelink.json
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\ListaAlumnos\obj\Debug\net9.0\ListaAlumnos.dll
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\ListaAlumnos\obj\Debug\net9.0\refint\ListaAlumnos.dll
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\ListaAlumnos\obj\Debug\net9.0\ListaAlumnos.pdb
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\ListaAlumnos\obj\Debug\net9.0\ListaAlumnos.genruntimeconfig.cache
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\ListaAlumnos\obj\Debug\net9.0\ref\ListaAlumnos.dll
