@@ -45,7 +45,6 @@ class Program // Variables globales y menú principal
             Console.WriteLine("[10] Salir");
             Console.Write("Seleccione una opción: ");
             opcion = int.Parse(Console.ReadLine());
-
             switch (opcion)
 {
     case 1: RegistrarAlumno(); break;
