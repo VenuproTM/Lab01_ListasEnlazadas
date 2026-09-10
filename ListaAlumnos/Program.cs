@@ -37,7 +37,7 @@ class Program // Variables globales y menú principal
         {
             iniciales += partes[i][0];
         }
-        return primerNombre + iniciales.ToLower() + "@upn.edu.pe";
+        return primerNombre + iniciales.ToLower() + "@upn.edu.pe"; 
     }
 
     static void Main()
@@ -93,4 +93,38 @@ class Program // Variables globales y menú principal
         Console.WriteLine($"Código : {nuevo.Codigo}");
         Console.WriteLine($"Correo : {nuevo.Correo}");
     }
+
+        static void IntercambiarDatos(Alumno a, Alumno b)
+    {
+    (a.Codigo, b.Codigo) = (b.Codigo, a.Codigo);
+    (a.Nombres, b.Nombres) = (b.Nombres, a.Nombres);
+    (a.Edad, b.Edad) = (b.Edad, a.Edad);
+    (a.Correo, b.Correo) = (b.Correo, a.Correo);
+    (a.Notas, b.Notas) = (b.Notas, a.Notas);
+    }
+
+
+        static void OrdenarBurbuja()
+{
+    if (cabeza == null) return;
+    bool intercambio;
+    do
+    {
+        intercambio = false;
+        Alumno actual = cabeza;
+        while (actual.Siguiente != null)
+        {
+            if (string.Compare(actual.Codigo, actual.Siguiente.Codigo) > 0)
+            {
+                IntercambiarDatos(actual, actual.Siguiente);
+                intercambio = true;
+            }
+            actual = actual.Siguiente;
+        }
+    } while (intercambio);
+    Console.WriteLine("Lista ordenada (burbuja) por código.");
+    }
+
 }
+
+
