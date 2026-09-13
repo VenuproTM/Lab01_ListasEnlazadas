@@ -1,0 +1,5 @@
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\obj\Debug\net9.0\Lab01_ListasEnlazadas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\obj\Debug\net9.0\Lab01_ListasEnlazadas.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\obj\Debug\net9.0\Lab01_ListasEnlazadas.AssemblyInfo.cs
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\obj\Debug\net9.0\Lab01_ListasEnlazadas.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Lab01_ListasEnlazadas\obj\Debug\net9.0\Lab01_ListasEnlazadas.sourcelink.json
